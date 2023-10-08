@@ -4,8 +4,8 @@
   "description": "CDE powered by StackBlitz's WebContainer",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite",
+    "build": "tsc && vite build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -18,7 +18,8 @@
   "devDependencies": {
     "@types/node": "^20.8.3",
     "@types/react": "^18.2.25",
-    "@types/react-dom": "^18.2.11"
+    "@types/react-dom": "^18.2.11",
+    "vite": "^4.4.11"
   },
   "browserslist": [
     ">0.2%",
