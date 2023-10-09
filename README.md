@@ -1,70 +1,58 @@
-# Getting Started with Create React Index
+# CDE (Code Development Environment)
 
-This project was bootstrapped with [Create React Index](https://github.com/facebook/create-react-app).
+CDE is a blazing fast online code development environment powered by StackBlitz's WebContainer 🔥. Whether you are looking to prototype, code, or collaborate, CDE provides a seamless experience right in your browser.
 
-## Available Scripts
+## 🌐 Features
 
-In the project directory, you can run:
+- **Monaco Editor**: Integrated with the popular Monaco Editor for a rich code editing experience.
+- **DockView**: Tabbed interface and organized workspace.
+- **Xterm.js**: Integrated terminal for real-time logs and command executions.
+- **YJS**: Real-time collaborative features for coding sessions.
+- **React Complex Tree**: Feature-rich tree views for project files and directories.
 
-### `npm start`
+## 🧰 Libraries Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [@monaco-editor/react](https://npmjs.com/package/@monaco-editor/react) - Monaco Editor for React.
+- [@webcontainer/api](https://npmjs.com/package/@webcontainer/api) - WebContainer API for StackBlitz.
+- [dockview](https://npmjs.com/package/dockview) - Windowing interface library.
+- [monaco-editor-auto-typings](https://npmjs.com/package/monaco-editor-auto-typings) - Automatic typings for the Monaco Editor.
+- [react](https://npmjs.com/package/react) & [react-dom](https://npmjs.com/package/react-dom) - React library and DOM bindings.
+- [react-complex-tree](https://npmjs.com/package/react-complex-tree) - Feature-rich tree view component for React.
+- [typescript](https://npmjs.com/package/typescript) - TypeScript language and compiler.
+- [vite](https://npmjs.com/package/vite) - Build tool and development server.
+- [xterm](https://npmjs.com/package/xterm) & [xterm-addon-fit](https://npmjs.com/package/xterm-addon-fit) - Terminal front end component and fitting addon.
+- [y-monaco](https://npmjs.com/package/y-monaco) - YJS bindings for Monaco Editor for collaborative features.
+- [y-webrtc](https://npmjs.com/package/y-webrtc) - WebRTC provider for YJS.
+- [yjs](https://npmjs.com/package/yjs) - High-performance real-time collaboration framework.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/prashantpaddune/CDE
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install the dependencies.
+   ```bash
+   pnpm install
+   ```
 
-### `npm run build`
+3. Start the development server.
+   ```bash
+   pnpm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open in your browser and enjoy coding!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How do I use it?
 
-### `npm run eject`
+Access the CDE instance using the following URLs:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [http://localhost:5101](http://localhost:5101) - Normal instance.
+- [http://localhost:5101/~/gh/prashantpaddune/CDE.git](http://localhost:5101/~/gh/prashantpaddune/CDE.git) - Clones the git repo and installs dependencies.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📜 License
+MIT
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React Index documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web Index
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
