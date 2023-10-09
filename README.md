@@ -1,4 +1,4 @@
-# CDE (Code Development Environment)
+# ⚡️CDE (Code Development Environment)
 
 CDE is a blazing fast online code development environment powered by StackBlitz's WebContainer 🔥. Whether you are looking to prototype, code, or collaborate, CDE provides a seamless experience right in your browser.
 
